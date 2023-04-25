@@ -1,0 +1,6 @@
+notes for code, as after fresh build it will be renewed.
+
+insert into course (id, name, author)
+values(1,'AWS','Mahesh');
+
+select * from course;
