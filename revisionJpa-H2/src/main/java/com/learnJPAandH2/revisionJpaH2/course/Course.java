@@ -1,8 +1,18 @@
 package com.learnJPAandH2.revisionJpaH2.course;
 
+//import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Course {
+	@Id
 	private long id;
+	
+//	@Column (name="name")
 	private String name;
+	
+//	@Column (name="author") if having same name than no need of using annotations
 	private String author;
 	
 	public Course() {
